@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>SADDED</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  	<context-param>
+	    <param-name>ApiURL</param-name>
+	    <param-value>https://eps-net-uat.sadadbh.com/api/v2/web-ven-sdd/epayment/create</param-value>
+	</context-param>
+  	<context-param>
+	    <param-name>ApiKey</param-name>
+	    <param-value>602c6f01-f3cc-46a4-baa9-751c7355a3a7</param-value>
+	</context-param>
+	<context-param>
+	    <param-name>VendorId</param-name>
+	    <param-value>520</param-value>
+	</context-param>
+	<context-param>
+	    <param-name>BranchId</param-name>
+	    <param-value>595</param-value>
+	</context-param>
+	<context-param>
+	    <param-name>TerminalId</param-name>
+	    <param-value>688</param-value>
+	</context-param>
+</web-app>
